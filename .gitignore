@@ -10,3 +10,4 @@
 .gradle/
 Assets/Plugins/Android/*.backup*
 *.csproj
+user.keystore
