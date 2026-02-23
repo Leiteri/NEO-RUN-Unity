@@ -1,4 +1,4 @@
-![Game Banner](https://github.com/Leiteri/NEO-RUN-Unity/blob/main/ui.jpg)
+![Game Banner](https://github.com/Leiteri/NEO-RUN-Unity/blob/main/game_icon.png)
 
 # NEO RUN 🏃‍♀️✨
 
