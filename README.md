@@ -32,5 +32,11 @@
 * `/Assets/Settings/` — настройки URP и Post-processing профилей.
 * `/Assets/Prefabs/` — настроенные префабы окружения и препятствий.
 
+## 📸 Галерея / Gallery
+
+| Main Hero | UI System | Leaderboard |
+| :--- | :--- | :--- |
+| ![gameplay](gameplay.jpg) | ![UI](ui.jpg) | ![Leaderboard](leaderboard.jpg) |
+
 ---
 *Разработано Leiteri (2025-2026)*
