@@ -34,7 +34,7 @@
 
 ## 📸 Галерея / Gallery
 
-| Main Hero | UI System | Leaderboard |
+| Gameplay | UI System | Leaderboard |
 | :--- | :--- | :--- |
 | ![gameplay](gameplay.jpg) | ![UI](ui.jpg) | ![Leaderboard](leaderboard.jpg) |
 
