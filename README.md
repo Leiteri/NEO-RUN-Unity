@@ -7,7 +7,7 @@
 > **Статус проекта:** Релиз в Google Play. На разработку затрачено более 500 часов.
 
 ## 📱 Ссылки
-[![Google Play](https://img.shields.io/badge/Google%20Play-Get%20it%20now-green?logo=google-play&logoColor=white)](ССЫЛКА_НА_ТВОЮ_ИГРУ_В_GOOGLE_PLAY)
+[![Google Play](https://img.shields.io/badge/Google%20Play-Get%20it%20now-green?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.MyGame.NeonRun)
 * **Портфолио:** 
 
 ## 🛠 Технический стек
