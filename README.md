@@ -8,7 +8,6 @@
 
 ## 📱 Ссылки
 [![Google Play](https://img.shields.io/badge/Google%20Play-Get%20it%20now-green?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.MyGame.NeonRun)
-* **Портфолио:** 
 
 ## 🛠 Технический стек
 * **Engine:** Unity 2022.3+ (URP)
