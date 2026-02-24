@@ -9,6 +9,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1' // Packages/com.yandex.mobileads/Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:12
     implementation 'com.yandex.android:mobileads:7.18.2' // Packages/com.yandex.mobileads/Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:7
     implementation 'io.appmetrica.analytics:analytics:7.14.0' // Packages/com.yandex.mobileads/Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:17
+
 // Android Resolver Dependencies End
 **DEPS**}
 

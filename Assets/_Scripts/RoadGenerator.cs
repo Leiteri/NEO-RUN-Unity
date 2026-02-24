@@ -13,7 +13,7 @@ public class RoadGenerator : MonoBehaviour
 
 
     [Header("UI Panels")]
-    public GameObject pauseOverlay; // Перетащи сюда свой PauseOverlay
+    public GameObject pauseOverlay; 
 
     [Header("Character")]
     public Animator characterAnimator;
@@ -25,33 +25,20 @@ public class RoadGenerator : MonoBehaviour
     void Start()
     {
         ResetLevel();
-        //StartLevel();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Если целевая скорость 0, то и текущую ставим в 0 и выходим
-        // Это предотвратит движение до вызова StartLevel()
         if (maxSpeed <= 0)
         {
             speed = 0;
             return;
         }
 
-        // Плавно разгоняемся только если игра запущена
-        // (maxSpeed теперь управляется через SpeedManager)
         speed = Mathf.MoveTowards(speed, maxSpeed, Time.deltaTime * 2f);
 
         if (speed <= 0) return;
 
-        // Движение дороги
-        //foreach (GameObject road in roads)
-       // {
-        //    road.transform.position -= new Vector3(0, 0, speed * Time.deltaTime);
-       // }
-
-        // Логика удаления и спавна дороги (как была раньше)
         if (roads.Count > 0 && roads[0].transform.position.z < -20)
         {
             PoolManager.instance.Despawn(roads[0]);

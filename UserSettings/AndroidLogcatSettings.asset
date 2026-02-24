@@ -69,7 +69,7 @@
         "AutoCapture": true
     },
     "m_FilterOptions": {
-        "m_Filter": "[ADS]",
+        "m_Filter": "ads",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

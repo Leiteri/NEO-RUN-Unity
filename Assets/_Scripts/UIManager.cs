@@ -161,6 +161,11 @@ public class UIManager : MonoBehaviour
         deathPanel.SetActive(false);
         gamePanel.SetActive(false);
 
+        if (AdsManager.Instance != null)
+        {
+            AdsManager.Instance.HandlePlayerDeath();
+        }
+
         menuPanel.SetActive(true);
         if (_menuAnimationCoroutine != null) StopCoroutine(_menuAnimationCoroutine);
         _menuAnimationCoroutine = StartCoroutine(AnimateMenu(true));

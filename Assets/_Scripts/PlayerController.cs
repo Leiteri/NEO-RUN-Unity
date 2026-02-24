@@ -340,7 +340,14 @@ public class PlayerController : MonoBehaviour
 
         state = PlayerState.Dead;
         rb.linearVelocity = Vector3.zero;
-        animator.SetTrigger("Death");
+
+        //animator.SetTrigger("Death");
+
+        animator.ResetTrigger("Run");
+        animator.ResetTrigger("Jump");
+        animator.ResetTrigger("Slide");
+
+        animator.Play("Death", 0, 0f);
 
         if (SoundManager.Instance != null && deathSound != null)
         {
@@ -350,11 +357,6 @@ public class PlayerController : MonoBehaviour
         if (backpackScreen != null) backpackScreen.ShowSad();
 
         RoadGenerator.instance.StopLevel();
-
-        if (AdsManager.Instance != null)
-        {
-            AdsManager.Instance.HandlePlayerDeath();
-        }
 
         StartCoroutine(ShowGameOverPanelRoutine());
 
@@ -441,10 +443,19 @@ public class PlayerController : MonoBehaviour
 
     public void RevivePlayer()
     {
+        StopAllCoroutines();
+
         Time.timeScale = 1f;
         state = PlayerState.Running;
 
+        //animator.ResetTrigger("Death");
+
         animator.ResetTrigger("Death");
+        animator.ResetTrigger("Run");
+        animator.ResetTrigger("Jump");
+        animator.ResetTrigger("Slide");
+        animator.SetInteger("IdleIndex", 0);
+        animator.SetBool("IsGrounded", true);
 
         animator.SetTrigger("Run");
 

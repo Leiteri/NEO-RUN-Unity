@@ -524,6 +524,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 115337703780513302, guid: 695c56548dfed4e43aa6c530925a0320, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1eb8d6615c2462a49b29c642ce9fca32, type: 2}
     - target: {fileID: 337562841681663350, guid: 695c56548dfed4e43aa6c530925a0320, type: 3}
       propertyPath: magnetTimeBar
       value: 
